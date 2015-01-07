@@ -28,17 +28,21 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	// 新增
 	public void bt1(View v) {
 	}
 
+	// 移除
 	public void bt2(View v) {
 
 	}
 
+	// 修改
 	public void bt3(View v) {
 
 	}
 
+	// 查詢
 	public void bt4(View v) {
 
 	}
