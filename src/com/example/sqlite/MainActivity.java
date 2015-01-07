@@ -6,9 +6,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	EditText name, number;
+	TextView tv;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		name = (EditText) findViewById(R.id.editText1);
 		number = (EditText) findViewById(R.id.editText2);
+		tv = (TextView) findViewById(R.id.textView3);
 	}
 
 	@Override
